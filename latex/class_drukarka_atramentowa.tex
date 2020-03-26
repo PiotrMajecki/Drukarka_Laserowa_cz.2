@@ -1,0 +1,235 @@
+\section{Drukarka\+Atramentowa Class Reference}
+\label{class_drukarka_atramentowa}\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+
+
+Klasa \doxyref{Drukarka\+Atramentowa}{p.}{class_drukarka_atramentowa}, pochodna klasy \doxyref{Drukarka}{p.}{class_drukarka}.  
+
+
+
+
+{\ttfamily \#include $<$Drukarka\+Atramentowa.\+h$>$}
+
+Inheritance diagram for Drukarka\+Atramentowa\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_drukarka_atramentowa}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Drukarka\+Atramentowa} ()
+\begin{DoxyCompactList}\small\item\em Kontruktor domyslny. \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Drukarka\+Atramentowa} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+void \textbf{ zmien\+Nazwe} (string \textbf{ nowa\+\_\+nazwa})
+\begin{DoxyCompactList}\small\item\em Funkcja modyfikujaca pole nazwy. \end{DoxyCompactList}\item 
+void \textbf{ zmien\+Marke} (string \textbf{ nowa\+\_\+marka})
+\begin{DoxyCompactList}\small\item\em Funkcja modyfikujaca pole marki. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Urzadzenie} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca aktualne urzadzenie. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Rodzaj\+Drukarki} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca rodzaj drukarki. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Stan} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca stan drukarki. \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+Urzadzenie} (\textbf{ Drukarka\+Atramentowa} \&atramentowa)
+\begin{DoxyCompactList}\small\item\em Zapisuje aktualne urzadzenie. \end{DoxyCompactList}\item 
+void \textbf{ wczytaj\+Urzadzenie} (\textbf{ Drukarka\+Atramentowa} \&atramentowa)
+\begin{DoxyCompactList}\small\item\em Wczytuje aktualne urzadzenie. \end{DoxyCompactList}\item 
+void \textbf{ zmien\+Parametry\+Urzadzenia} (int nowy\+\_\+parametr)
+\begin{DoxyCompactList}\small\item\em Funkcja zmieniajaca wybrany parametr urzadzeni. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \textbf{ nazwa}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca nazwe drukarki. \end{DoxyCompactList}\item 
+string \textbf{ marka}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca marke drukarki. \end{DoxyCompactList}\item 
+int \textbf{ pamiec\+\_\+wewnetrzna}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca pamiec wewnetrzna drukarki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&a, \textbf{ Drukarka\+Atramentowa} \&atramentowa)
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy $<$$<$. \end{DoxyCompactList}\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&a, \textbf{ Drukarka\+Atramentowa} \&atramentowa)
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy $>$$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \doxyref{Drukarka\+Atramentowa}{p.}{class_drukarka_atramentowa}, pochodna klasy \doxyref{Drukarka}{p.}{class_drukarka}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_drukarka_atramentowa_af9767e713ce25e354e78d9e0d7854011}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{Drukarka\+Atramentowa()}
+{\footnotesize\ttfamily Drukarka\+Atramentowa\+::\+Drukarka\+Atramentowa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Kontruktor domyslny. 
+
+\mbox{\label{class_drukarka_atramentowa_a5294d2f4d2f57bb92fa5b9c7166353e2}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!````~Drukarka\+Atramentowa@{$\sim$\+Drukarka\+Atramentowa}}
+\index{````~Drukarka\+Atramentowa@{$\sim$\+Drukarka\+Atramentowa}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{$\sim$\+Drukarka\+Atramentowa()}
+{\footnotesize\ttfamily Drukarka\+Atramentowa\+::$\sim$\+Drukarka\+Atramentowa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destruktor. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_drukarka_atramentowa_adf14978278f44b8a7afcea4073db2b94}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!wczytaj\+Urzadzenie@{wczytaj\+Urzadzenie}}
+\index{wczytaj\+Urzadzenie@{wczytaj\+Urzadzenie}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{wczytaj\+Urzadzenie()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::wczytaj\+Urzadzenie (\begin{DoxyParamCaption}\item[{\textbf{ Drukarka\+Atramentowa} \&}]{atramentowa }\end{DoxyParamCaption})}
+
+
+
+Wczytuje aktualne urzadzenie. 
+
+\mbox{\label{class_drukarka_atramentowa_a178e4ca78646b7dc86431c02952864c1}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!wyswietl\+Rodzaj\+Drukarki@{wyswietl\+Rodzaj\+Drukarki}}
+\index{wyswietl\+Rodzaj\+Drukarki@{wyswietl\+Rodzaj\+Drukarki}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{wyswietl\+Rodzaj\+Drukarki()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::wyswietl\+Rodzaj\+Drukarki (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Funkcja wyswietlajaca rodzaj drukarki. 
+
+
+
+Implements \textbf{ Drukarka} \doxyref{}{p.}{class_drukarka_ac31957e9a068dad8dd4a3366885b3aa1}.
+
+\mbox{\label{class_drukarka_atramentowa_ad1131fef70745264afbeb40e68cbcc93}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!wyswietl\+Stan@{wyswietl\+Stan}}
+\index{wyswietl\+Stan@{wyswietl\+Stan}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{wyswietl\+Stan()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::wyswietl\+Stan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyswietlajaca stan drukarki. 
+
+\mbox{\label{class_drukarka_atramentowa_af10a296b97424fc011bc9016617a5bdc}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!wyswietl\+Urzadzenie@{wyswietl\+Urzadzenie}}
+\index{wyswietl\+Urzadzenie@{wyswietl\+Urzadzenie}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{wyswietl\+Urzadzenie()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::wyswietl\+Urzadzenie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyswietlajaca aktualne urzadzenie. 
+
+\mbox{\label{class_drukarka_atramentowa_a46035be566876f5f433f2c7e9487f7f3}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!zapisz\+Urzadzenie@{zapisz\+Urzadzenie}}
+\index{zapisz\+Urzadzenie@{zapisz\+Urzadzenie}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{zapisz\+Urzadzenie()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::zapisz\+Urzadzenie (\begin{DoxyParamCaption}\item[{\textbf{ Drukarka\+Atramentowa} \&}]{atramentowa }\end{DoxyParamCaption})}
+
+
+
+Zapisuje aktualne urzadzenie. 
+
+\mbox{\label{class_drukarka_atramentowa_aedc85daa45543795f258d3256484bade}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!zmien\+Marke@{zmien\+Marke}}
+\index{zmien\+Marke@{zmien\+Marke}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{zmien\+Marke()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::zmien\+Marke (\begin{DoxyParamCaption}\item[{string}]{nowa\+\_\+marka }\end{DoxyParamCaption})}
+
+
+
+Funkcja modyfikujaca pole marki. 
+
+\mbox{\label{class_drukarka_atramentowa_a5f3d491c41ef7c9781eb606e2f4eb6fb}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!zmien\+Nazwe@{zmien\+Nazwe}}
+\index{zmien\+Nazwe@{zmien\+Nazwe}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{zmien\+Nazwe()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::zmien\+Nazwe (\begin{DoxyParamCaption}\item[{string}]{nowa\+\_\+nazwa }\end{DoxyParamCaption})}
+
+
+
+Funkcja modyfikujaca pole nazwy. 
+
+\mbox{\label{class_drukarka_atramentowa_acd6bfc005dffc30e57a9106ce175fc7b}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!zmien\+Parametry\+Urzadzenia@{zmien\+Parametry\+Urzadzenia}}
+\index{zmien\+Parametry\+Urzadzenia@{zmien\+Parametry\+Urzadzenia}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{zmien\+Parametry\+Urzadzenia()}
+{\footnotesize\ttfamily void Drukarka\+Atramentowa\+::zmien\+Parametry\+Urzadzenia (\begin{DoxyParamCaption}\item[{int}]{nowy\+\_\+parametr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Funkcja zmieniajaca wybrany parametr urzadzeni. 
+
+
+
+Implements \textbf{ Drukarka} \doxyref{}{p.}{class_drukarka_a0c0973a1330f5d20d20f617d7f4ad815}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_drukarka_atramentowa_ad64f242b639e39ead86b549a16794760}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{a,  }\item[{\textbf{ Drukarka\+Atramentowa} \&}]{atramentowa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator strumieniowy $<$$<$. 
+
+\mbox{\label{class_drukarka_atramentowa_ad81030cdd68ff1bd6990456164f9fe44}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{operator$>$$>$}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{a,  }\item[{\textbf{ Drukarka\+Atramentowa} \&}]{atramentowa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator strumieniowy $>$$>$ 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{class_drukarka_atramentowa_a70c4fe13a56744d291af7ee896842418}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!marka@{marka}}
+\index{marka@{marka}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{marka}
+{\footnotesize\ttfamily string Drukarka\+Atramentowa\+::marka\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Zmienna przechowujaca marke drukarki. 
+
+\mbox{\label{class_drukarka_atramentowa_a8cf00dee944e45ccd01e385d27368589}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{nazwa}
+{\footnotesize\ttfamily string Drukarka\+Atramentowa\+::nazwa\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Zmienna przechowujaca nazwe drukarki. 
+
+\mbox{\label{class_drukarka_atramentowa_a8480b700e689e211e2f70329608c35eb}} 
+\index{Drukarka\+Atramentowa@{Drukarka\+Atramentowa}!pamiec\+\_\+wewnetrzna@{pamiec\+\_\+wewnetrzna}}
+\index{pamiec\+\_\+wewnetrzna@{pamiec\+\_\+wewnetrzna}!Drukarka\+Atramentowa@{Drukarka\+Atramentowa}}
+\subsubsection{pamiec\+\_\+wewnetrzna}
+{\footnotesize\ttfamily int Drukarka\+Atramentowa\+::pamiec\+\_\+wewnetrzna\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Zmienna przechowujaca pamiec wewnetrzna drukarki. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Drukarka\+Laserowa cz.\+2/\textbf{ Drukarka\+Atramentowa.\+h}\item 
+Drukarka\+Laserowa cz.\+2/\textbf{ Drukarka\+Atramentowa.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,143 @@
+\section{Liczba\+Kartek Class Reference}
+\label{class_liczba_kartek}\index{Liczba\+Kartek@{Liczba\+Kartek}}
+
+
+Klasa \doxyref{Liczba\+Kartek}{p.}{class_liczba_kartek}, podklasa klasy \doxyref{Drukarka\+Laserowa}{p.}{class_drukarka_laserowa}.  
+
+
+
+
+{\ttfamily \#include $<$Liczba\+Kartek.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Liczba\+Kartek} ()
+\begin{DoxyCompactList}\small\item\em Kontruktor domyslny. \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Liczba\+Kartek} ()
+\begin{DoxyCompactList}\small\item\em destruktor \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Kartki} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca aktualna ilosc kartek. \end{DoxyCompactList}\item 
+void \textbf{ zmniejsz\+Kartki} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zmniejszajaca ilosc kartek. \end{DoxyCompactList}\item 
+void \textbf{ wymiana\+Kartek} (int nowa\+\_\+ilosc\+\_\+kartek)
+\begin{DoxyCompactList}\small\item\em Funkcja zmieniajaca ilosc kartek. \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+Urzadzenie} (\textbf{ Liczba\+Kartek} \&kartki)
+\begin{DoxyCompactList}\small\item\em Zapisuje aktualne urzadzenie do pliku. \end{DoxyCompactList}\item 
+void \textbf{ wczytaj\+Urzadzenie} (\textbf{ Liczba\+Kartek} \&kartki)
+\begin{DoxyCompactList}\small\item\em Wczytuje aktualne urzadzenie z pliku. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&k, \textbf{ Liczba\+Kartek} \&kartki)
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy $<$$<$. \end{DoxyCompactList}\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&k, \textbf{ Liczba\+Kartek} \&kartki)
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy $>$$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \doxyref{Liczba\+Kartek}{p.}{class_liczba_kartek}, podklasa klasy \doxyref{Drukarka\+Laserowa}{p.}{class_drukarka_laserowa}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_liczba_kartek_a5b8f9ef3090a1dda536258364fa0c98f}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!Liczba\+Kartek@{Liczba\+Kartek}}
+\index{Liczba\+Kartek@{Liczba\+Kartek}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{Liczba\+Kartek()}
+{\footnotesize\ttfamily Liczba\+Kartek\+::\+Liczba\+Kartek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Kontruktor domyslny. 
+
+\mbox{\label{class_liczba_kartek_a74b7c7c0734ae04ac8400d119ec73c2e}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!````~Liczba\+Kartek@{$\sim$\+Liczba\+Kartek}}
+\index{````~Liczba\+Kartek@{$\sim$\+Liczba\+Kartek}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{$\sim$\+Liczba\+Kartek()}
+{\footnotesize\ttfamily Liczba\+Kartek\+::$\sim$\+Liczba\+Kartek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_liczba_kartek_adbe350d7e80efdd3485062f41c92efbe}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!wczytaj\+Urzadzenie@{wczytaj\+Urzadzenie}}
+\index{wczytaj\+Urzadzenie@{wczytaj\+Urzadzenie}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{wczytaj\+Urzadzenie()}
+{\footnotesize\ttfamily void Liczba\+Kartek\+::wczytaj\+Urzadzenie (\begin{DoxyParamCaption}\item[{\textbf{ Liczba\+Kartek} \&}]{kartki }\end{DoxyParamCaption})}
+
+
+
+Wczytuje aktualne urzadzenie z pliku. 
+
+\mbox{\label{class_liczba_kartek_ac857fc73aff02972faa9563abc97bf7d}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!wymiana\+Kartek@{wymiana\+Kartek}}
+\index{wymiana\+Kartek@{wymiana\+Kartek}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{wymiana\+Kartek()}
+{\footnotesize\ttfamily void Liczba\+Kartek\+::wymiana\+Kartek (\begin{DoxyParamCaption}\item[{int}]{nowa\+\_\+ilosc\+\_\+kartek }\end{DoxyParamCaption})}
+
+
+
+Funkcja zmieniajaca ilosc kartek. 
+
+\mbox{\label{class_liczba_kartek_a7642b71a3fa02723a13e7054da542b57}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!wyswietl\+Kartki@{wyswietl\+Kartki}}
+\index{wyswietl\+Kartki@{wyswietl\+Kartki}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{wyswietl\+Kartki()}
+{\footnotesize\ttfamily void Liczba\+Kartek\+::wyswietl\+Kartki (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyswietlajaca aktualna ilosc kartek. 
+
+\mbox{\label{class_liczba_kartek_abc5adc55e7d13c0eb66497de259a1617}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!zapisz\+Urzadzenie@{zapisz\+Urzadzenie}}
+\index{zapisz\+Urzadzenie@{zapisz\+Urzadzenie}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{zapisz\+Urzadzenie()}
+{\footnotesize\ttfamily void Liczba\+Kartek\+::zapisz\+Urzadzenie (\begin{DoxyParamCaption}\item[{\textbf{ Liczba\+Kartek} \&}]{kartki }\end{DoxyParamCaption})}
+
+
+
+Zapisuje aktualne urzadzenie do pliku. 
+
+\mbox{\label{class_liczba_kartek_a4290c8a40e540ea06570add9706f9e47}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!zmniejsz\+Kartki@{zmniejsz\+Kartki}}
+\index{zmniejsz\+Kartki@{zmniejsz\+Kartki}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{zmniejsz\+Kartki()}
+{\footnotesize\ttfamily void Liczba\+Kartek\+::zmniejsz\+Kartki (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja zmniejszajaca ilosc kartek. 
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_liczba_kartek_a5d2f18a424b2dac713091623bd021ae0}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{k,  }\item[{\textbf{ Liczba\+Kartek} \&}]{kartki }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator strumieniowy $<$$<$. 
+
+\mbox{\label{class_liczba_kartek_a0bda24376dd794cf98b245fba9b685ce}} 
+\index{Liczba\+Kartek@{Liczba\+Kartek}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Liczba\+Kartek@{Liczba\+Kartek}}
+\subsubsection{operator$>$$>$}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{k,  }\item[{\textbf{ Liczba\+Kartek} \&}]{kartki }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator strumieniowy $>$$>$ 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Drukarka\+Laserowa cz.\+2/\textbf{ Liczba\+Kartek.\+h}\item 
+Drukarka\+Laserowa cz.\+2/\textbf{ Liczba\+Kartek.\+cpp}\end{DoxyCompactItemize}

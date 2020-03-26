@@ -1,0 +1,414 @@
+\section{Drukarka\+Laserowa Class Reference}
+\label{class_drukarka_laserowa}\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+
+
+Klasa \doxyref{Drukarka\+Laserowa}{p.}{class_drukarka_laserowa}, pochodna klasy \doxyref{Drukarka}{p.}{class_drukarka}.  
+
+
+
+
+{\ttfamily \#include $<$Drukarka\+Laserowa.\+h$>$}
+
+Inheritance diagram for Drukarka\+Laserowa\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_drukarka_laserowa}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Drukarka\+Laserowa} ()
+\begin{DoxyCompactList}\small\item\em Kontruktor domyslny. \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} (int pamiec)
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Drukarka\+Laserowa} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujacy. \end{DoxyCompactList}\item 
+void \textbf{ zmien\+Nazwe} (string \textbf{ nowa\+\_\+nazwa})
+\begin{DoxyCompactList}\small\item\em Funkcja modyfikujaca pole nazwy. \end{DoxyCompactList}\item 
+void \textbf{ zmien\+Marke} (string \textbf{ nowa\+\_\+marka})
+\begin{DoxyCompactList}\small\item\em Funkcja modyfikujaca pole marki. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Urzadzenie} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca aktualne urzadzenie. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Rodzaj\+Drukarki} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca rodzaj drukarki. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Ilosc} ()
+\begin{DoxyCompactList}\small\item\em Funkcja Wyswietlajaca ilsc stworzonych obiektow. \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+Urzadzenie} (\textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em Zapisuje aktualne urzadzenie. \end{DoxyCompactList}\item 
+void \textbf{ wczytaj\+Urzadzenie} (\textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em Wczytuje aktualne urzadzenie. \end{DoxyCompactList}\item 
+void \textbf{ zmien\+Parametry\+Urzadzenia} (int nowy\+\_\+parametr)
+\begin{DoxyCompactList}\small\item\em Funkcja zmieniajaca wybrany parametr urzadzeni. \end{DoxyCompactList}\item 
+void \textbf{ wyswietl\+Stan} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca stan drukarki. \end{DoxyCompactList}\item 
+bool \textbf{ operator==} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator == \end{DoxyCompactList}\item 
+bool \textbf{ operator$>$} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator $>$ \end{DoxyCompactList}\item 
+bool \textbf{ operator$<$} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator $<$ \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \& \textbf{ operator=} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator = \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \textbf{ operator+} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator + \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \textbf{ operator$\ast$} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator $\ast$ \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \& \textbf{ operator+=} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator += \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \& \textbf{ operator-\/=} (const \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em operator -\/= \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \& \textbf{ operator++} (int)
+\begin{DoxyCompactList}\small\item\em operator ++ \end{DoxyCompactList}\item 
+\textbf{ Drukarka\+Laserowa} \& \textbf{ operator-\/-\/} (int)
+\begin{DoxyCompactList}\small\item\em operator -- \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \textbf{ nazwa}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca nazwe drukarki. \end{DoxyCompactList}\item 
+string \textbf{ marka}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca marke drukarki. \end{DoxyCompactList}\item 
+int \textbf{ pamiec\+\_\+wewnetrzna}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca pamiec wewnetrzna drukarki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ liczba\+\_\+obiektow} = 0
+\begin{DoxyCompactList}\small\item\em Zmienna statyczna, przechowujaca liczbe utworzonych obiektow. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&l, \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy $<$$<$. \end{DoxyCompactList}\item 
+std\+::istream \& \textbf{ operator$>$$>$} (std\+::istream \&l, \textbf{ Drukarka\+Laserowa} \&drukarka\+\_\+laserowa)
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy $>$$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \doxyref{Drukarka\+Laserowa}{p.}{class_drukarka_laserowa}, pochodna klasy \doxyref{Drukarka}{p.}{class_drukarka}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_drukarka_laserowa_a7f541671aab057fa95c4726d9c6bc176}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{Drukarka\+Laserowa()\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Drukarka\+Laserowa\+::\+Drukarka\+Laserowa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Kontruktor domyslny. 
+
+\mbox{\label{class_drukarka_laserowa_afec2369af7041f4e9311a33d10a87809}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{Drukarka\+Laserowa()\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Drukarka\+Laserowa\+::\+Drukarka\+Laserowa (\begin{DoxyParamCaption}\item[{int}]{pamiec }\end{DoxyParamCaption})}
+
+
+
+Konstruktor. 
+
+\mbox{\label{class_drukarka_laserowa_a73ac561ef9e6375782799fa8035487df}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!````~Drukarka\+Laserowa@{$\sim$\+Drukarka\+Laserowa}}
+\index{````~Drukarka\+Laserowa@{$\sim$\+Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{$\sim$\+Drukarka\+Laserowa()}
+{\footnotesize\ttfamily Drukarka\+Laserowa\+::$\sim$\+Drukarka\+Laserowa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destruktor. 
+
+\mbox{\label{class_drukarka_laserowa_a3e057d583745023e4bfe78adb1b68e58}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{Drukarka\+Laserowa()\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Drukarka\+Laserowa\+::\+Drukarka\+Laserowa (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+Konstruktor kopiujacy. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_drukarka_laserowa_abb2ef635ed06ccacf5463492eb716a04}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator$\ast$()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} Drukarka\+Laserowa\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator $\ast$ 
+
+Operator $\ast$. \mbox{\label{class_drukarka_laserowa_aab711b7b11f29e0add1c4073b52cc249}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator+@{operator+}}
+\index{operator+@{operator+}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator+()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} Drukarka\+Laserowa\+::operator+ (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator + 
+
+Operator +. \mbox{\label{class_drukarka_laserowa_a5c5721e31cb5d27515d8f7139331ebd7}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator++@{operator++}}
+\index{operator++@{operator++}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator++()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} \& Drukarka\+Laserowa\+::operator++ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+
+
+operator ++ 
+
+Operator ++. \mbox{\label{class_drukarka_laserowa_a0d46c5eb3ab53b4c5c8fd93d8dd6543b}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator+=()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} \& Drukarka\+Laserowa\+::operator+= (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator += 
+
+Operator +=. \mbox{\label{class_drukarka_laserowa_a844daae7f1d6289c8d0b7131567cc48f}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator-\/-\/()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} \& Drukarka\+Laserowa\+::operator-\/-\/ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+
+
+operator -- 
+
+Operator --. \mbox{\label{class_drukarka_laserowa_a48d35026935f191fa5997fb793c73ec4}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator-\/=()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} \& Drukarka\+Laserowa\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator -\/= 
+
+Operator -\/=. \mbox{\label{class_drukarka_laserowa_af216f092a8f12e6aa9f8cab044e8b362}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator$<$()}
+{\footnotesize\ttfamily bool Drukarka\+Laserowa\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator $<$ 
+
+Operator $<$. \mbox{\label{class_drukarka_laserowa_a898f6d57db0f0870bfbee13b7b1bf401}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator=@{operator=}}
+\index{operator=@{operator=}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator=()}
+{\footnotesize\ttfamily \textbf{ Drukarka\+Laserowa} \& Drukarka\+Laserowa\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator = 
+
+Operator =. \mbox{\label{class_drukarka_laserowa_ae739d225550a0d69a96d3940f30048cc}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator==@{operator==}}
+\index{operator==@{operator==}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator==()}
+{\footnotesize\ttfamily bool Drukarka\+Laserowa\+::operator== (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator == 
+
+Operator =. \mbox{\label{class_drukarka_laserowa_ab1cd6a654da9e5ca44cfd49f0e6bb735}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator$>$()}
+{\footnotesize\ttfamily bool Drukarka\+Laserowa\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+operator $>$ 
+
+Operator $>$ \mbox{\label{class_drukarka_laserowa_aca98bc314c587b60d079d4e909a0c4e4}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!wczytaj\+Urzadzenie@{wczytaj\+Urzadzenie}}
+\index{wczytaj\+Urzadzenie@{wczytaj\+Urzadzenie}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{wczytaj\+Urzadzenie()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::wczytaj\+Urzadzenie (\begin{DoxyParamCaption}\item[{\textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+Wczytuje aktualne urzadzenie. 
+
+\mbox{\label{class_drukarka_laserowa_ad29f80de9e2a5944f64c72472ab8470e}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!wyswietl\+Ilosc@{wyswietl\+Ilosc}}
+\index{wyswietl\+Ilosc@{wyswietl\+Ilosc}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{wyswietl\+Ilosc()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::wyswietl\+Ilosc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja Wyswietlajaca ilsc stworzonych obiektow. 
+
+\mbox{\label{class_drukarka_laserowa_a6317c4138c4b0f5f26d7209aa9f6de86}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!wyswietl\+Rodzaj\+Drukarki@{wyswietl\+Rodzaj\+Drukarki}}
+\index{wyswietl\+Rodzaj\+Drukarki@{wyswietl\+Rodzaj\+Drukarki}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{wyswietl\+Rodzaj\+Drukarki()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::wyswietl\+Rodzaj\+Drukarki (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Funkcja wyswietlajaca rodzaj drukarki. 
+
+
+
+Implements \textbf{ Drukarka} \doxyref{}{p.}{class_drukarka_ac31957e9a068dad8dd4a3366885b3aa1}.
+
+
+
+Reimplemented in \textbf{ Drukarka\+Laserowa\+Ze\+Skanerem} \doxyref{}{p.}{class_drukarka_laserowa_ze_skanerem_aa37311823ae51a267ab614082ed38162}.
+
+\mbox{\label{class_drukarka_laserowa_a546955bfc3bb343cc828fc4c6624840a}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!wyswietl\+Stan@{wyswietl\+Stan}}
+\index{wyswietl\+Stan@{wyswietl\+Stan}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{wyswietl\+Stan()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::wyswietl\+Stan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyswietlajaca stan drukarki. 
+
+\mbox{\label{class_drukarka_laserowa_ad101e0282808db040d4d010e497a64e6}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!wyswietl\+Urzadzenie@{wyswietl\+Urzadzenie}}
+\index{wyswietl\+Urzadzenie@{wyswietl\+Urzadzenie}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{wyswietl\+Urzadzenie()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::wyswietl\+Urzadzenie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyswietlajaca aktualne urzadzenie. 
+
+\mbox{\label{class_drukarka_laserowa_aab5a4c15080963ce1289453d28deb322}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!zapisz\+Urzadzenie@{zapisz\+Urzadzenie}}
+\index{zapisz\+Urzadzenie@{zapisz\+Urzadzenie}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{zapisz\+Urzadzenie()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::zapisz\+Urzadzenie (\begin{DoxyParamCaption}\item[{\textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})}
+
+
+
+Zapisuje aktualne urzadzenie. 
+
+\mbox{\label{class_drukarka_laserowa_a7af3f3cd2d8a947a3f64de13985706b1}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!zmien\+Marke@{zmien\+Marke}}
+\index{zmien\+Marke@{zmien\+Marke}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{zmien\+Marke()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::zmien\+Marke (\begin{DoxyParamCaption}\item[{string}]{nowa\+\_\+marka }\end{DoxyParamCaption})}
+
+
+
+Funkcja modyfikujaca pole marki. 
+
+\mbox{\label{class_drukarka_laserowa_a5fed946210dce136b7203172c215df5e}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!zmien\+Nazwe@{zmien\+Nazwe}}
+\index{zmien\+Nazwe@{zmien\+Nazwe}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{zmien\+Nazwe()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::zmien\+Nazwe (\begin{DoxyParamCaption}\item[{string}]{nowa\+\_\+nazwa }\end{DoxyParamCaption})}
+
+
+
+Funkcja modyfikujaca pole nazwy. 
+
+\mbox{\label{class_drukarka_laserowa_aeb1c4870b0c7570a99992a694c7aebd1}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!zmien\+Parametry\+Urzadzenia@{zmien\+Parametry\+Urzadzenia}}
+\index{zmien\+Parametry\+Urzadzenia@{zmien\+Parametry\+Urzadzenia}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{zmien\+Parametry\+Urzadzenia()}
+{\footnotesize\ttfamily void Drukarka\+Laserowa\+::zmien\+Parametry\+Urzadzenia (\begin{DoxyParamCaption}\item[{int}]{nowy\+\_\+parametr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Funkcja zmieniajaca wybrany parametr urzadzeni. 
+
+
+
+Implements \textbf{ Drukarka} \doxyref{}{p.}{class_drukarka_a0c0973a1330f5d20d20f617d7f4ad815}.
+
+
+
+Reimplemented in \textbf{ Drukarka\+Laserowa\+Ze\+Skanerem} \doxyref{}{p.}{class_drukarka_laserowa_ze_skanerem_af32643998dec727591bb3956074800b7}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_drukarka_laserowa_a9aeecb5f56f3f86716b4668ba91803b9}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{l,  }\item[{\textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator strumieniowy $<$$<$. 
+
+\mbox{\label{class_drukarka_laserowa_adab561874dc824b55c9695dd73b4cdff}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{operator$>$$>$}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{l,  }\item[{\textbf{ Drukarka\+Laserowa} \&}]{drukarka\+\_\+laserowa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operator strumieniowy $>$$>$ 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{class_drukarka_laserowa_a6db0507e8fa11025963921d25f40d5b5}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!liczba\+\_\+obiektow@{liczba\+\_\+obiektow}}
+\index{liczba\+\_\+obiektow@{liczba\+\_\+obiektow}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{liczba\+\_\+obiektow}
+{\footnotesize\ttfamily int Drukarka\+Laserowa\+::liczba\+\_\+obiektow = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Zmienna statyczna, przechowujaca liczbe utworzonych obiektow. 
+
+\mbox{\label{class_drukarka_laserowa_af08d8f7271bed5653b7e297dd79c633b}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!marka@{marka}}
+\index{marka@{marka}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{marka}
+{\footnotesize\ttfamily string Drukarka\+Laserowa\+::marka\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Zmienna przechowujaca marke drukarki. 
+
+\mbox{\label{class_drukarka_laserowa_ac01f229c688d0c211048471553b200ab}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{nazwa}
+{\footnotesize\ttfamily string Drukarka\+Laserowa\+::nazwa\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Zmienna przechowujaca nazwe drukarki. 
+
+\mbox{\label{class_drukarka_laserowa_a0f05728fd1a9ad05db2e3e9dbe425dbe}} 
+\index{Drukarka\+Laserowa@{Drukarka\+Laserowa}!pamiec\+\_\+wewnetrzna@{pamiec\+\_\+wewnetrzna}}
+\index{pamiec\+\_\+wewnetrzna@{pamiec\+\_\+wewnetrzna}!Drukarka\+Laserowa@{Drukarka\+Laserowa}}
+\subsubsection{pamiec\+\_\+wewnetrzna}
+{\footnotesize\ttfamily int Drukarka\+Laserowa\+::pamiec\+\_\+wewnetrzna\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Zmienna przechowujaca pamiec wewnetrzna drukarki. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Drukarka\+Laserowa cz.\+2/\textbf{ Drukarka\+Laserowa.\+h}\item 
+Drukarka\+Laserowa cz.\+2/\textbf{ Drukarka\+Laserowa.\+cpp}\end{DoxyCompactItemize}
